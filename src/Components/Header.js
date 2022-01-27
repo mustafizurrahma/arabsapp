@@ -87,13 +87,13 @@ export default class Header extends Component {
                     <a href="javascript:void(0)" onClick={()=>{this.scrollToDiv('roadmap')}} className={this.state.activeNav == 'roadmap' ? "active" : ''}>Roadmap</a>
                   </li>
                   <li>
-                    <a href="http://twitter.com/thefirstarabs" className="iconsbox"> <Image src="/assets/i/tw.png"  /></a>
+                    <a href="http://twitter.com/thefirstarabs" target="_blank" className="iconsbox"> <Image src="/assets/i/tw.png"  /></a>
                   </li>
                   <li>
-                    <a href="http://instagram.com/thefirstarabs" className="iconsbox"> <Image src="/assets/i/insta.png"  /></a>
+                    <a href="http://instagram.com/thefirstarabs" target="_blank" className="iconsbox"> <Image src="/assets/i/insta.png"  /></a>
                   </li>
-                  <li>
-                    <a href="https://discord.com/invite/8zRx9Z7cEM" className="iconsbox"> <Image src="/assets/i/discord.png"  /></a>
+                   <li>
+                    <a href="https://discord.com/invite/8zRx9Z7cEM" target="_blank" className="iconsbox"> <Image src="/assets/i/discord.png"  /></a>
                   </li>
                   <li>
                     <a href="#" className="cta-btn">
@@ -167,7 +167,7 @@ export default class Header extends Component {
                     <a href="http://instagram.com/thefirstarabs" target="_blank" className="iconsbox"> <Image src="/assets/i/insta.png"  /></a>
                   </li>
                   <li  className="mx-2"> 
-                    <a href="https://discord.gg/xP2UEkyj" target="_blank" className="iconsbox"> <Image src="/assets/i/discord.png"  /></a>
+                    <a href="https://discord.com/invite/8zRx9Z7cEM" target="_blank" className="iconsbox"> <Image src="/assets/i/discord.png"  /></a>
                   </li>
               </ul>
             <a href="#" className="cta-btn d-none">
